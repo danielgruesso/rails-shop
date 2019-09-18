@@ -1,0 +1,29 @@
+html body {
+  margin: 0;
+}
+
+.header {
+  padding: 10px;
+  background-color: #eee;
+
+  .menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    li {
+      display: inline;
+      margin-right: 5px;
+    }
+  }
+}
+
+.container {
+  max-width: 800px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.pull-right {
+  float: right;
+}
